@@ -8,5 +8,10 @@ div{
     p{
         background-color: red;
         padding: 50px;
+        &:hover{
+            background-color: lightsalmon;
+            color: purple;
+            font-size: 4em;
+        }
     }
 }
